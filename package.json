@@ -1,4 +1,8 @@
 {
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "![alt text](./assets/Images/.png)",
+  "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.3",
@@ -6,5 +10,22 @@
     "express-handlebars": "^6.0.5",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtori37/Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtori37/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/vtori37/Tech-Blog#readme"
 }
