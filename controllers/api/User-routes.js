@@ -15,6 +15,7 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   User.findOne({
+    ///do i need to have attributes exclude? should i have attirbutes id, title, and post_text?
     attributes: { exclude: ['password'] },
     where: {
       id: req.params.id
@@ -22,7 +23,7 @@ router.get('/:id', (req, res) => {
     include: [
       {
         model: Post,
-        attributes: ['id', 'title', 'post_url', 'created_at']
+        attributes: ['id', 'title', 'post_text', 'created_at']
       },
       {
         model: Comment,
