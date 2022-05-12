@@ -1,29 +1,30 @@
-const express = require('express');
 const path = require('path');
-const sequelize = require('./config/connection');
-const routes = require('./controllers');
+const express = require('express');
+
+const session = require('express-session');
 const helpers = require('./utils/helpers');
+const sequelize = require('./config/connection');
 
 const exphs = require('express-handlebars');
-const hbs = exphs.create([ helpers ]);
+const hbs = exphs.create({ helpers });
+
+const routes = require('./controllers');
 
 const app = express();
 const PORT = process.env.PORT || 3001
 
-const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store); // do i need this?
 
-
 // is this necessary?
-// const sess = {
-//   secret: 'A Secret', //does what is entered here matter?
-//   cookie: {},
-//   resave: false,
-//   saveUninitialized: true,
-//   store: new SequelizeStore({
-//     db: sequelize
-//   })
-// };
+const sess = {
+  secret: 'A Secret', //does what is entered here matter?
+  cookie: {},
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize
+  })
+};
 
 app.use(session(sess));
 
