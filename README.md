@@ -12,7 +12,7 @@ This application functions as a tech blog. Users should be able to log in and cr
 
 ## Website
 Here is a link to the live website:
-[Tori's Tech Blog ](https://github.com/vtori37/Tech-Blog)
+[Tori's Tech Blog ](Herkou: https://tech-blog-tori.herokuapp.com/)
 
 
 ## Author
