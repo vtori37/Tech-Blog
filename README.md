@@ -1,73 +1,30 @@
 # Tech-Blog
 
 ## Description 
-![alt text](./assets/Images/.png)
+This application functions as a tech blog. Users should be able to log in and create posts. Users will also be able to comment under posts. 
 
 
 ## Table of Contents 
 * [Website](#website)
-* [Contributors](#contributors)
+* [Author](#author)
 * [Credits](#credits)
+* [License](#license)
 
 ## Website
 Here is a link to the live website:
-[Password Generator](https://vtori37.github.io/PROJECTS/)
+[Tori's Tech Blog ](https://github.com/vtori37/Tech-Blog)
 
 
 ## Author
 [Victoria Rice](https://github.com/vtori37)
 
-## Contributors
-The following individuals helped assit me in building this code:
-
 ## Credits
 * HTML5
 * CSS 
 * JS
+* Node.js
+* MySQL
 --- 
-
-
-
-# Team Profile Generator
-![MIT Badge](https://img.shields.io/badge/License-MIT-green)
-
-## Description
-This application creates an employee information and profile HTML webpage. 
-
-## Table of Contents 
-* [Website](#Website)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Test](#Test)
-* [Contributors](#contributors)
-* [Technology](#technology)
-* [License](license)
-* [Questions](#Questions)
-
-***
-
-## Website
-Here is a link to the live website:
-[Team Profile Generator](https://github.com/vtori37/team-profile-generator)
-
-## Installation 
-To access the application
-
-## Usage
-This project can be used to create company profile pages.
-
-## Test
-Here is a demonstration of the application.
-undefined
-
-## Contributors
-
-
-## Technology
-* HTML5
-* CSS 
-* JS
-
 
 ## License 
 https://opensource.org/licenses/MIT
@@ -85,7 +42,7 @@ If you have any questions or concerns regarding this project, feel free to reach
 
 
 
-
+<!-- 
 User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
@@ -133,4 +90,4 @@ allows the user to delete or update the post and taken back to an updated dashbo
 signs the user out
 
 * Sitting Idle on the site for more than a set time
-allows user to view comments but prompts them to log in again before they can add, update, or delete comments
+allows user to view comments but prompts them to log in again before they can add, update, or delete comments -->
