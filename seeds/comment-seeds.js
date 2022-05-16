@@ -1,7 +1,7 @@
-const { Comment } = require('../models');
+// const { Comment } = require('../models');
 
-const commentData = [
-  {
-    comment_
-  }
-]
+// const commentData = [
+//   {
+//     comment_
+//   }
+// ]
